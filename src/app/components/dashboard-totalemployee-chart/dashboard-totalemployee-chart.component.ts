@@ -9,11 +9,11 @@ interface Employee {
 }
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  selector: 'lib-dashboardtotalemployeechart',
+  templateUrl: './dashboard-totalemployee-chart.component.html',
+  styleUrl: './dashboard-totalemployee-chart.component.css',
 })
-export class AppComponent{
+export class DashboardTotalEmployeeChartComponent{
   title = 'Responsive';
   employees: Employee[] = [
     {
